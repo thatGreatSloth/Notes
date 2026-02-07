@@ -1,0 +1,24 @@
+
+1. Rate Limiting - limit the requests that user can make, block exceeded requests. Can overwhelm API by sending shit ton of requests.
+
+        Per Endpoint limiting - /comments endpoint -> set limit 
+        Per user / IP
+        Overall to mitigate DDos - some bigger number, handle bots. 
+
+
+2.  CORS - Cross Origin Resource Sharing 
+ 
+            - Controls which domain can call your API from a browser and without proper course, malicaious websites can trick users into making requests. 
+
+3. SQL  and NoSQL Injection - attackers can pass sql queries into inputs. Use ORM's and parameterised queries. 
+
+4. Firewalls - filter traffic. 
+
+5. VPN - users within the VPN network can access API
+
+6. CSRF - Cross-Site Request Forgery
+        tricks are logged into users browser into making unwanted requests to the API. Malicious sites can use cookies from an unsecure bank site to make a hidden money transferring request. Use CSRF token and match it with the token they have along with the session cookie. 
+
+7. XSS - Cross - Site Scripting
+Attackers can inject scripts into web pages served to other users.
+Attacker places a script in comment section which can be stored in server. User later loading the comments will get the injected comment into their web page. Script can be looking for tokens, etc.  
