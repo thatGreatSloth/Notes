@@ -1,0 +1,5 @@
+1. Forward Proxy [client-facing] - configure internet traffic to be routed through a proxy before reaching any internal network. Also log user activity, caching responses. 
+
+2. Reverse Proxy [server facing] - sits on the server side and handles requests coming from clients. Load balancing, security, scan request, ensure ssl encryption, caching, logging. NGINX - popular reverse proxy.  
+
+        
