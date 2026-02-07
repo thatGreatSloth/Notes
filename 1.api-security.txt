@@ -1,4 +1,4 @@
-
+Hand typed notes frim : https://www.youtube.com/watch?v=FsB_nRGdeLs 
 1. Rate Limiting - limit the requests that user can make, block exceeded requests. Can overwhelm API by sending shit ton of requests.
 
         Per Endpoint limiting - /comments endpoint -> set limit 
